@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint", 
+    "test": "hardhat test", 
+    "chain": "hardhat node", 
+    "deploy": "hardhat run scripts/deploy.js --network localhost"
   },
   "dependencies": {
     "@emotion/css": "^11.9.0",
