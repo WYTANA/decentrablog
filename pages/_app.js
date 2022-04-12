@@ -105,11 +105,11 @@ const container = css`
 
 const linkContainer = css`
   padding: 30px 60px;
-  background-color: #fafafa;
+  background-color: pink;
 `
 
 const nav = css`
-  background-color: white;
+  background-color: darkorange;
 `
 
 const header = css`
