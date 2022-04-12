@@ -7,9 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint", 
-    "test": "hardhat test", 
+    "compile": "yarn hardhat compile",
+    "clean": "yarn hardhat clean",
     "chain": "hardhat node", 
-    "deploy": "hardhat run scripts/deploy.js --network localhost"
+    "deploy": "hardhat run scripts/deploy.js --network localhost",
+    "test": "hardhat test"
   },
   "dependencies": {
     "@emotion/css": "^11.9.0",
